@@ -15,9 +15,15 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
 }
 
+.page {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
 .page h2 {
     text-align: center;
     margin-bottom: 30px;
+    padding-top: 30px;
 }
 
 header .navbar-brand {
@@ -40,6 +46,7 @@ jumbotron {
 .jumbotron {
 
 	background-color: #b2d1e5;
+    margin-bottom: 0;
 }
 
 .jumbotron h1 {
@@ -48,6 +55,29 @@ jumbotron {
 
 .jumbotron p {
 	width: 50%;
+}
+
+.jumbotron .btn {
+    background-color: #1c3e54;
+    margin-top: 15px;
+}
+
+#services {
+    background-color: #79afd2;
+    background-image: linear-gradient(to bottom, #79afd2, #b2d1e5);
+}
+
+@media only screen
+and (min-width: 520px)
+and (max-width: 768px) {
+    div .panel-default {
+        margin: 15px 20%;
+    }
+}
+
+#contact {
+    background-color: #1c3e54;
+    color: white;
 }
 
 footer {
