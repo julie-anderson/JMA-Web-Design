@@ -49,8 +49,13 @@ jumbotron {
     margin-bottom: 0;
 }
 
-.jumbotron h1 {
+.jumbotron h1,
+.jumbotron h2 {
 	color: white;
+}
+
+.tagline {
+    font-size: .8em;
 }
 
 .jumbotron p {
@@ -60,6 +65,18 @@ jumbotron {
 .jumbotron .btn {
     background-color: #1c3e54;
     margin-top: 15px;
+}
+
+#about img {
+    max-width: 200px;
+    margin-top: -70px;
+}
+@media only screen 
+and (max-width: 768px) {
+    #about img {
+        margin-top: 0;
+        padding-bottom: 15px;
+    }
 }
 
 #services {
