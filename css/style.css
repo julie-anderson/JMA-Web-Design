@@ -6,6 +6,7 @@
 }
 
 body {
+    position: relative;
 	padding-top: 50px;
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
@@ -17,8 +18,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .page {
     padding-bottom: 30px;
-    padding-top: 30px;
-}
+    padding-top: 20px;
+}   
 
 .page h2 {
     text-align: center;
@@ -100,4 +101,8 @@ and (max-width: 768px) {
 footer {
     background-color: #b2d1e5;
     padding: 50px;
+}
+
+footer a:hover {
+    color: #1c3e54;
 }
