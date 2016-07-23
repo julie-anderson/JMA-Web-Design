@@ -121,3 +121,8 @@ footer {
 footer a:hover {
     color: #1c3e54;
 }
+
+#php-response .panel {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
