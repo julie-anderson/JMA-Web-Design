@@ -4,7 +4,6 @@ $('.navbar-collapse a').click(function(){
     $(".navbar-collapse").collapse('hide');
 });
 
-
 // Enables smooth scrolling with offset
 var topoffset = 50;
 
