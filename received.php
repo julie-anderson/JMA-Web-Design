@@ -42,7 +42,7 @@
     </header>
     <div class="container" id="php-response">
       <div class="row">
-        <div class="col-xs-8 col-xs-offset-2">
+        <div class="col-xs-12 col-sm-8 col-sm-offset-2 ">
           <div class="panel panel-default">
             <div class="panel-heading">
               <h3 class="panel-title">Thank you for your interest!</h3>
